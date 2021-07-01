@@ -166,6 +166,6 @@ span {
 @media only screen and (max-height: 810px) {
     html,
     body {
-        overflow-y: scroll;
+        overflow-y: auto;
     }
 }
