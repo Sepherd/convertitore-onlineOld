@@ -41,6 +41,7 @@ $("#type").click(function() {
         toConvert = 1;
         converted = 2;
         $("#converted").val(converted);
+
     } else if (type == 2) {
         $(".userSelect").prop("disabled", false);
         $(".select").html('<option value = "1" >Tonnellata</option><option value = "2">Chilogrammo</option><option value = "3" >Grammo</option><option value = "4" >Milligrammo</option><option value = "5" >Libbra</option><option value = "6" >Oncia</option>')
